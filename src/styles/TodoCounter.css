@@ -1,0 +1,15 @@
+h2{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 15px
+}
+
+h2 span:not(.numbers){
+    color: #ffa31a;
+    word-wrap: break-word;
+}
+
+.numbers{
+    font-weight: bold;
+    font-size: 1.5rem;
+}

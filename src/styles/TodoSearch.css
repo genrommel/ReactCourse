@@ -1,0 +1,25 @@
+.TodoSearch{
+    margin-top: 20px;
+    width: 300px;
+    max-width: 60%;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 7px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+    border: 3px solid #14213d;
+    text-align: center;
+    color: #1e1e1f;
+}
+
+.TodoSearch::placeholder{
+    color: #808080AF;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.TodoSearch:focus{
+    outline-color: #4a4e69;
+}

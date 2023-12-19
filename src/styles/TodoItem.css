@@ -1,0 +1,65 @@
+li{
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 13px;
+    position: relative;
+    background-color: #ffa31a;
+    border-radius: 5px;
+}
+
+/* li input{
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+} */
+
+
+
+.TodoItemP{
+    margin-left: 10%;
+    word-wrap: break-word;
+    color: black;
+    font-weight: bold;
+    font-size: .9rem;
+    line-height: 24px;
+}
+
+.TodoItempP--complete{
+    text-decoration: line-through;
+}
+
+
+.Icon{
+    cursor: pointer;
+    display: flex;
+    justify-content:     center;
+    align-items: center;
+    height: 16px;
+    width: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    user-select: none;
+}
+
+
+.Icon-delete{
+    position: absolute;
+    top: -8px;
+    right: 0;
+}
+
+.Icon-delete:hover{
+    color: red;
+}
+
+
+
+/* .TodoItempP--complete{
+    text-decoration: line-through;
+} */
+

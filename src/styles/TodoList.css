@@ -1,0 +1,9 @@
+ul{
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 380px;
+    max-width: 70%;
+    gap: 20px;
+    list-style: none;
+}
